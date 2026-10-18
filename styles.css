@@ -1,0 +1,31 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+.centered {
+    text-align: center;
+}
+
+
+.hero-content{
+    color: #FFFFFF;
+    text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.7);
+}
+
+.hero-wrapper {
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), #333 url("https://i.ytimg.com/vi/e96ZyDcha4E/maxresdefault.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px; 
+    width: 100%; 
+}
+
